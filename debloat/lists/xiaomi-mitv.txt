@@ -1,0 +1,23 @@
+# Xiaomi Mi TV (tested on MiTV-MOOR2, Google TV, Android 11). Add it to DEBLOAT_LISTS in tv.env.
+com.miui.tv.analytics                          # Xiaomi analytics
+com.xiaomi.statistic                           # Xiaomi usage statistics
+com.mitv.tvhome.atv                            # Mi TV home rows
+com.mitv.tvhome.michannel                      # Mi Channel
+com.mitv.tvhome.mitvplus                       # Mi TV+
+com.mitv.tvhome.oemtab                         # OEM tab on the home screen
+com.xm.webcontent                              # Web content feed
+android.autoinstalls.config.xiaomi.amelie      # Auto-installs partner apps
+com.xiaomi.mimusic2                            # Mi Music
+com.mitv.gallery                               # Mi Gallery
+com.mitv.videoplayer                           # Mi Video player
+com.xiaomi.mitv.mediaexplorer                  # Media explorer
+fusion.android.tv.demo                         # Store demo mode
+com.xiaomi.mitv.tvmanager                      # TV Manager
+com.xiaomi.mitv.smartshare                     # Smart Share casting
+com.xiaomi.mitv.scenemode                      # Scene mode
+com.mitv.toolhouse                             # Toolhouse
+com.xiaomi.wfdsinkhelperservice                # Miracast helper (keep it if you mirror a phone)
+com.xiaomi.mitv.updateservice                  # Xiaomi app updater
+com.mitv.livetv.ci_mediatek                    # CI+ module support for live TV
+com.xiaomi.android.tvsetup.partnercustomizer   # Setup partner customizer
+com.mediatek.android.leanbacklauncher.partnercustomizer  # Launcher partner customizer

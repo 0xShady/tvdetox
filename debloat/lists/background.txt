@@ -1,0 +1,4 @@
+# Apps that may not run in the background (appops RUN_ANY_IN_BACKGROUND ignore). They still work when opened.
+com.netflix.ninja                  # Netflix
+com.google.android.youtube.tv      # YouTube
+com.apple.atve.androidtv.appletv   # Apple TV

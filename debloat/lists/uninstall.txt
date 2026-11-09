@@ -1,0 +1,2 @@
+# Preinstalled apps removed for the current user (pm uninstall -k --user 0). restore.sh brings them back.
+com.amazon.amazonvideo.livingroom   # Prime Video

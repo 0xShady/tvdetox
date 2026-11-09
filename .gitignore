@@ -1,0 +1,6 @@
+.DS_Store
+build/
+backups/
+tv.env
+*.apk
+*.idsig

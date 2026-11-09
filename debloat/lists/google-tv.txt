@@ -1,0 +1,9 @@
+# Google TV packages to disable (pm disable-user --user 0). One package per line, text after # is ignored.
+# Delete a line to keep that app. Undo everything with debloat/restore.sh.
+com.google.android.feedback            # Send feedback reporter
+com.google.android.play.games          # Play Games
+com.google.android.marvin.talkback     # TalkBack screen reader (keep it if you use it)
+com.google.android.katniss             # Google Assistant and voice search on the remote mic
+com.google.android.tv.assistant        # Assistant integration
+com.google.android.apps.tv.dreamx      # Ambient Mode screensaver (replaced by screensaver/)
+com.google.android.backdrop            # Ambient Mode photo source
