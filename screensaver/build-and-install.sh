@@ -8,4 +8,4 @@ tv install -r build/LightSlideshow.apk
 tv shell pm grant local.lightdream android.permission.READ_EXTERNAL_STORAGE
 tv shell mkdir -p /sdcard/Pictures/Screensaver
 tv shell settings put secure screensaver_components local.lightdream/.SlideshowDream
-echo "Installed and set as screensaver. Add pictures: adb -s $TV push photo.jpg /sdcard/Pictures/Screensaver/"
+echo "Installed and set as screensaver. Add photos with: screensaver/add-photos.sh photo.jpg"

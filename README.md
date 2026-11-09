@@ -47,7 +47,7 @@ Accept the "Allow USB debugging?" prompt on the TV the first time. Then, optiona
 ```bash
 ./launcher/build-and-install.sh       # home screen
 ./screensaver/build-and-install.sh    # screensaver
-adb push photo.jpg /sdcard/Pictures/Screensaver/
+./screensaver/add-photos.sh ~/Pictures/*.jpg    # your photos (--clear removes them)
 ```
 
 Building the apps needs JDK 17+ and the Android SDK
@@ -79,6 +79,7 @@ coordinates set, the apps make no network calls at all.
 | `debloat/debloat.sh` | Disables the listed apps, removes `uninstall.txt` apps for the current user, blocks background running for `background.txt`, sets animation speed | `debloat/restore.sh` |
 | `launcher/build-and-install.sh` | Installs the home screen and its Home button service | `launcher/uninstall.sh` |
 | `screensaver/build-and-install.sh` | Installs the screensaver and selects it | `screensaver/uninstall.sh` |
+| `screensaver/add-photos.sh` | Copies photos to `/sdcard/Pictures/Screensaver` and restarts the screensaver so it sees them | `add-photos.sh --clear` |
 
 Nothing is removed from the system partition, so a factory reset always brings the TV back to stock.
 Before you run it:
